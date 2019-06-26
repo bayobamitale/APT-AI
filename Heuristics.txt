@@ -1,0 +1,51 @@
+Heuristics
+1. check Resource BaseLine exist
+    if not exist
+	    Setup Resource BaseLine
+	    Stop:
+
+2. If exist
+     continue: 
+	
+1. Explore Impacts or Changes to Resource BaseLine
+        Commonly Used Ports
+		Network - Status + Packets
+		Network Traffics 
+		Events  
+		Logs
+		Database
+		Clients
+		Memory
+		Register
+		User Accounts
+		Roles
+		Security Logs
+		Software - (a) Malware  (b) Tools
+ If no changes
+    Stop: 
+
+if change exist
+   check for Malicious Change.
+   If not malicious
+     stop: 
+	 
+if change is malicious:
+   Continue: 
+
+2. Determine Actors, Pattern, Tools and Technique Using Common Knowledge Or Symptom  
+   2.1. Determine Attack Actor
+   2.2. Determine Attack Pattern
+   2.3. Determine Attack Stage
+   2.4. Determine Attack Tools
+   2.5. Determine Attack Technique
+3. Determine if Actor or Pattern exist in Common Knowledge Base
+4. If Not Exist
+     Save Attack Actor into Common Knowledge Base
+	 Save Attack Pattern into Common Knowledge Base
+	 Save Tools into Common Knowledge Base
+5. if Exist
+     Update Group Info in Common Knowledge Base
+	 Update Pattern Info in Common Knowledge Base
+	 Update Pattern Info in Common Knowledge Base
+6. Update Event Report and Log
+7. Update Resource BaseLine
