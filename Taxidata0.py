@@ -8,3 +8,5 @@ api_root = server.api_roots[0]
 # Print name and ID of all ATT&CK technology-domains available as collections
 for collection in api_root.collections:
           print(collection.title + ": " + collection.id)
+
+# This is regarding an API for connection CTI_Mitre for Advance Persistent Threat (API)
